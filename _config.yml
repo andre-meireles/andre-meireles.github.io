@@ -13,22 +13,53 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Andre's blog
+email: meireles.andre@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Personal blog of Andre Meireles.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: _battlemage
+github_username:  andre-meireles
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: minimal-mistakes-jekyll
+# theme: minima
 plugins:
   - jekyll-feed
+
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+# Site owner
+author:
+  name: Andre Meireles
+  avatar: profile_photo.jpg
+  bio: "Software developer at Amazon; helping make homes smarter with Alexa. Opinions my own."
+  email: meireles.andre@outlook.com
+  disqus-shortname: #username
+  twitter: _battlemage
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: andre-meireles
+  stackoverflow: #username
+  linkedin: andre-meireles-05a9b19a
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
