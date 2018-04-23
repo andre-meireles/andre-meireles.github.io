@@ -24,7 +24,7 @@ github_username:  andre-meireles
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 # theme: minima
 plugins:
   - jekyll-feed
